@@ -1,4 +1,3 @@
-// src/utils/game.ts
 export type Difficulty = 'easy' | 'medium' | 'hard';
 
 export const difficultyAttempts: Record<Difficulty, number> = {

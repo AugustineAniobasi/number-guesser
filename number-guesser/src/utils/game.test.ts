@@ -1,5 +1,4 @@
 /// <reference types="vitest/globals"/>
-// src/utils/game.test.ts
 import { generateSecret, validateGuess } from './game';
 
 describe('generateSecret', () => {

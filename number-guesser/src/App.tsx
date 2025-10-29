@@ -1,4 +1,3 @@
-// src/App.tsx
 import React from 'react';
 import Game from './components/game.tsx';   // ✅ import your game component
 import './App.css';                     // ✅ keep this if you want basic app styles

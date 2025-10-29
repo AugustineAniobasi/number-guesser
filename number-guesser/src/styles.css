@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #ffecd2, #fcb69f); /* warm orange-peach gradient */
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 40px 12px;
+  color: #2d1b00;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+
+.app-root {
+  width: 100%;
+  max-width: 720px;
+}
+
+
+
+
