@@ -1,0 +1,35 @@
+/* Root app container */
+#root {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+/* Smooth app card */
+.app-root {
+  background: #fffdf9;
+  border-radius: 16px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+
+.app-root:hover {
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.12);
+}
+
+
+/* Footer styling */
+footer small {
+  color: #7a3e00;
+  font-size: 0.85rem;
+}
+
+
+
+
+
+
