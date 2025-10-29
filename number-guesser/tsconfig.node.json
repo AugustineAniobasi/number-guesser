@@ -4,7 +4,7 @@
     "target": "ES2023",
     "lib": ["ES2023"],
     "module": "ESNext",
-    "types": ["node"],
+    "types": ["node", "vitest/globals"],  // ✅ Added Vitest types
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -22,5 +22,10 @@
     "noFallthroughCasesInSwitch": true,
     "noUncheckedSideEffectImports": true
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts",
+    "vitest.config.ts",       // ✅ optional: if you ever create a vitest config
+    "src/**/*.test.ts",       // ✅ include test files
+    "src/**/*.test.tsx"
+  ]
 }
